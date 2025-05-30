@@ -9,23 +9,23 @@ A simple face detection project using OpenCV's Haar Cascade classifier to detect
 - Lightweight and easy to use.
 
 ## Installation
-1. Clone the repository:
+   1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/facedetect.git
-2. Navigate to the project directory:
-```bash
-cd facedetect
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
+   2. Navigate to the project directory:
+   ```bash
+   cd facedetect
+   3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 ##Usage
-1.To detect faces in an image:
-```bash
-python face_detector.py --image path/to/image.jpg
-2.To use your webcam for real-time face detection:
-```bash
-python face_detector.py --webcam
-Make sure the haarcascade_frontalface_default.xml file is present in the same directory as your script.
+   1.To detect faces in an image:
+   ```bash
+   python face_detector.py --image path/to/image.jpg
+   2.To use your webcam for real-time face detection:
+   ```bash
+   python face_detector.py --webcam
+   Make sure the haarcascade_frontalface_default.xml file is present in the same directory as your script.
 ##Project Structure
 ```bash
 facedetect/
