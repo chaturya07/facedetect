@@ -22,17 +22,17 @@ git clone https://github.com/your-username/your-repo-name.git
 #Navigate to the project directory:
 cd your-repo-name
 
-Install the required Python packages:
+#Install the required Python packages:
 pip install -r requirements.txt
 
-Usage
+#Usage
 To run the face detector on an image:
 python face_detector.py --image path/to/image.jpg
 
 To run real-time face detection using your webcam:
 python face_detector.py --webcam
 
-Files
+#Files
 face_detector.py - Main Python script for face detection.
 
 haarcascade_frontalface_default.xml - Pre-trained Haar Cascade model file.
@@ -43,4 +43,5 @@ README.md - Project documentation.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
