@@ -1,5 +1,6 @@
 # Facedetect
 Face Detector using OpenCV
+
 #Description
 This project implements a simple face detection system using OpenCV's Haar Cascade classifier. It detects faces in images or video streams and highlights them with rectangles.
 
