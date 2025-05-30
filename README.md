@@ -1,48 +1,18 @@
-# Facedetect
-Face Detector using OpenCV
+# Face Detector using OpenCV
 
-#Description
-This project implements a simple face detection system using OpenCV's Haar Cascade classifier. It detects faces in images or video streams and highlights them with rectangles.
+## Overview
+A simple face detection project using OpenCV's Haar Cascade classifier to detect faces in images and live webcam feed.
 
-#Features
-Detects faces in images.
+## Features
+- Real-time face detection via webcam.
+- Detection on static images.
+- Lightweight and easy to use.
 
-Supports webcam video feed for real-time face detection.
-
-Uses OpenCV's pre-trained Haar Cascade classifier.
-
-#Requirements
-Python 3.x
-
-OpenCV
-
-#Installation
-Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
-
-#Navigate to the project directory:
-cd your-repo-name
-
-#Install the required Python packages:
-pip install -r requirements.txt
-
-#Usage
-To run the face detector on an image:
-python face_detector.py --image path/to/image.jpg
-
-To run real-time face detection using your webcam:
-python face_detector.py --webcam
-
-#Files
-face_detector.py - Main Python script for face detection.
-
-haarcascade_frontalface_default.xml - Pre-trained Haar Cascade model file.
-
-requirements.txt - Python dependencies.
-
-README.md - Project documentation.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/facedetect.git
+2. Navigate to the project directory:
+```bash
+cd facedetect
 
